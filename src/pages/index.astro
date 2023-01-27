@@ -11,8 +11,12 @@ import UserTable from "../components/UserTable";
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
-		<UserForm client:visible />
-		<UserTable client:visible />
+	<body class="flex antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+		<div class="flex-1">
+			<UserForm client:visible />
+		</div>
+		<div class="flex-1">
+			<UserTable client:visible />
+		</div>
 	</body>
 </html>
