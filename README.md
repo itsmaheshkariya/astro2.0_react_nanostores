@@ -1,17 +1,20 @@
-# Astro Starter Kit: Minimal
-
+# Astro2.0 + React + Nanostores Starter Kit
 ```
-npm create astro@latest -- --template minimal
+git clone https://github.com/itsmaheshkariya/astro2.0_react_nanostores
+cd astro2.0_react_nanostores
+yarn install
+yarn dev
 ```
+![Slide 16_9 - 1flutternodejwt-8](https://user-images.githubusercontent.com/16520789/215163764-7a76ffaa-c110-4447-83d2-b3c0b2f11e0c.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/itsmaheshkariya/astro2.0_react_nanostores)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/itsmaheshkariya/astro2.0_react_nanostores)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of your Astro + React + Nanostores project, you'll see the following folders and files:
 
 ```
 /
@@ -19,6 +22,11 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── src/
 │   └── pages/
 │       └── index.astro
+│   └── components/
+│       └── UserForm.jsx
+│       └── UserTable.jsx
+│   └── store/
+│       └── user.js
 └── package.json
 ```
 
